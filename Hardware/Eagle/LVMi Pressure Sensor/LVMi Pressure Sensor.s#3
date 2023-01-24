@@ -4340,7 +4340,7 @@ Breadboard-friendly pins.
 <vertex x="3.6068" y="-1.0795"/>
 </polygon>
 </package>
-<package name="SOIC150-14_MCH-M" urn="urn:adsk.eagle:footprint:36684929/2" library_version="514">
+<package name="SOIC150-14_MCH-M" urn="urn:adsk.eagle:footprint:36684929/1" library_version="513">
 <smd name="1" x="-2.7559" y="3.81" dx="1.6002" dy="0.5588" layer="1"/>
 <smd name="2" x="-2.7559" y="2.54" dx="1.6002" dy="0.5588" layer="1"/>
 <smd name="3" x="-2.7559" y="1.27" dx="1.6002" dy="0.5588" layer="1"/>
@@ -4474,7 +4474,7 @@ Breadboard-friendly pins.
 <wire x1="-1.9558" y1="-6.2484" x2="-1.7018" y2="-6.096" width="0.1524" layer="47"/>
 <wire x1="-1.9558" y1="-6.2484" x2="-1.7018" y2="-6.35" width="0.1524" layer="47"/>
 <wire x1="-1.7018" y1="-6.096" x2="-1.7018" y2="-6.35" width="0.1524" layer="47"/>
-<text x="-3.2639" y="3.9243" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-4.8514" y="2.9718" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-2.9972" y="-6.985" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-15.2146" y="-9.398" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: RX63Y22D0T</text>
 <text x="-15.5702" y="-10.922" size="1.27" layer="47" ratio="6" rot="SR0">Pin One Padstyle: RX63Y22D0T</text>
@@ -6488,7 +6488,7 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="SOIC150-14_MCH"/>
 </packageinstances>
 </package3d>
-<package3d name="SOIC150-14_MCH-M" urn="urn:adsk.eagle:package:36684934/3" type="model" library_version="514">
+<package3d name="SOIC150-14_MCH-M" urn="urn:adsk.eagle:package:36684934/2" type="model" library_version="513">
 <packageinstances>
 <packageinstance name="SOIC150-14_MCH-M"/>
 </packageinstances>
@@ -10845,7 +10845,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY1624-SSU" urn="urn:adsk.eagle:component:36684936/3" prefix="U" uservalue="yes" library_version="514">
+<deviceset name="ATTINY1624-SSU" urn="urn:adsk.eagle:component:36684936/2" prefix="U" uservalue="yes" library_version="513">
 <gates>
 <gate name="A" symbol="ATTINY1624-SSU" x="0" y="0"/>
 </gates>
@@ -10897,7 +10897,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <connect gate="A" pin="VDD" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36684934/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36684934/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -11011,7 +11011,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <part name="R2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:24631221/1" value="4K7"/>
 <part name="C1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="LCD1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="LCD-NEWHAVEN-16X2" device="" package3d_urn="urn:adsk.eagle:package:16424125/3" value="Newhaven NHD-0216AW-1B3"/>
-<part name="R3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:24631221/1" value="270K"/>
+<part name="R3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:24631221/1"/>
 <part name="JP1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:21589409/1" value="UPDI"/>
 <part name="J1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="POWER_JACK" device="PJ-102AH" package3d_urn="urn:adsk.eagle:package:23133605/2"/>
 <part name="D1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="SCHOTTKY-PMEG6030EVPX" device="" package3d_urn="urn:adsk.eagle:package:28188986/2"/>
@@ -11045,7 +11045,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <part name="C6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND13" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="+3.3V" device=""/>
-<part name="U1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ATTINY1624-SSU" device="SOIC150-14_MCH-M" package3d_urn="urn:adsk.eagle:package:36684934/3" value="ATTINY1624-SSU"/>
+<part name="U1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ATTINY1624-SSU" device="SOIC150-14_MCH-M" package3d_urn="urn:adsk.eagle:package:36684934/2" value="ATTINY1624-SSU"/>
 <part name="SUPPLY4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="+3.3V" device=""/>
 <part name="SUPPLY5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="+3.3V" device=""/>
 </parts>
@@ -11129,7 +11129,7 @@ signaling.</text>
 </instance>
 <instance part="R3" gate="G$1" x="128.016" y="159.766" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.286" y="163.3474" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="131.826" y="157.988" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="131.826" y="163.068" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="JP1" gate="A" x="195.58" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="196.215" y="153.035" size="1.778" layer="95"/>
